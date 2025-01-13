@@ -1,35 +1,34 @@
-## Financial Research Graph with LangGraph
+### Explore Financial Expert Aliance with AI
 
-### Watch the video
+### Get Started
+Launch the application:
+Open a terminal.
+Run the command: python graph.py.
+Ask questions about financial data and visualize insights.
+Check the data folder for generated files like charts and CSVs.
 
-[YouTube Video](https://youtu.be/2CS2MxAc1YI)
+### Sample Queries
+Here are some example questions to explore with LangGraph:
 
-### Run the app
+### Economic Indicators
+Compare the latest GDPs of Germany, Switzerland, and Austria. Visualize this as a bar chart.
+Fetch inflation rates for Germany, Switzerland, and Austria. Save them as a CSV file and include the average as a horizontal line in a bar chart.
+What was the GDP of Germany in 2020?
+Comparative Analysis
+Compare the GDPs of the US and China over the past decade, and plot a bar chart.
+Analyze the GDP trends of OECD countries over the last 10 years. Identify top and bottom performers and present results in a table chart.
 
-- Open a terminal and run `python graph.py`
-- Ask a question
-- Examine the data folder for generated files
+### Employment & Salaries
+What is the average unemployment rate in OECD countries compared to the US? Generate a bar chart and save the data to a CSV file.
+Compare software engineer salaries in the US with the average across OECD countries. Visualize the data in a bar chart and save it as a CSV file.
+Cost of Living
+Compare the cost of living and average salaries in San Francisco and Zurich. Present the data in local currencies through a bar chart and save it in a CSV file.
+Create a pie chart highlighting the top 5 expense categories in Stockholm's cost of living.
+Energy & Environment
+Plot historical natural gas prices over the past 5 years.
+Overlay Germany's GDP growth with natural gas prices over the past decade. Generate a combined chart and save it as a CSV file.
 
-### Tweaks
+### Other Insights
+Predict future temperature trends in San Francisco based on historical averages for November.
+Compare the cost of living and average salaries in the top 10 most expensive cities worldwide. Save the data as a CSV and overlay the metrics in a bar chart.
 
-- Change the LLM model from OpenAI to Ollama or another model by channging the llm variable
-
-### Sample Prompts
-
-- Find the most-recent GDPs of Germany, Switzerland and Austria and create a bar chart
-- Calculate the average of the first 10 numbers and create a bar chart
-- Find the most-recent inflation rates of Germany, Switzerland and Austria, save them in a CVS file, and create a bar chart with the average displayed a as a horizontal line
-- List the reasons why inflation rate is low in Switzerland compared to Austria and Germany and rank the reasons into a Markdown file
-- Calculate the average net worth of households in the US and compare it with Germany, going back 20 years. Generate a dot chart using different colors for US and Germany. Save the results in a CSV file
-- What is the average unemployment in the OECD countries and how does it compare to the US? Plot a bar chart and save the data in a CSV file
-- What is the average salary for software engineers in the US compared to the rest of the OECD. Create a CSV file and a bar chart.Compare the cost of living in the top 10 most expensive cities in the World along with average salaries. Create a CSV file and plot a bar chart, overlaying cost of living and salary
-- Compare San Francisco and Zurich, Switzerland in terms of cost of living and average salaries in local currency and print the results in a bar chart and write to a CSV file
-- Plot a chart of the natural gas historical data for the past 5 years
-- What was DEU GDP in 2020
-- Compare the GDPs of US and China for the past 10 years and plot a bar chart
-- Analyze the GDP data for OECD countries in the past 10 years and identify the best and worst performers according to the data provided
-- Analyze the GDP data for OECD countries in the past 10 years and identify the best and worst performers according to the data provided. Plot a table chart with the results.
-- Plot a bar chart of the natural gas prices for the past 5 years and overlay with Germany GDP for the same period
-- What is the cost of living in the capital city of Sweden? Plot this in a pie chart with the top 5 expense categories
-- Create a prediction chart for the temperatures in San Francisco based on the annual averages in November
-- Overlay the GDP growth of Germany with the natural gas prices for the past 10 years. Draw a chart and save it as a CSV file
